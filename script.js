@@ -22,6 +22,6 @@ function add(string) {
     clear = false
 }
 
-function pop() {
+function clearInput() {
     document.getElementById("num-input").value = '';
 }
