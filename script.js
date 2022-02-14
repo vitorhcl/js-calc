@@ -16,7 +16,7 @@ function calc() {
 }
 function add(string) {
     if(clear){
-        document.getElementById("num-input").value = '';   
+        clearInput();
     }
     document.getElementById("num-input").value += string;
     clear = false
